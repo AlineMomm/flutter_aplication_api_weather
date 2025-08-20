@@ -1,0 +1,33 @@
+1- criar repo GET 
+2- Iniciar projeto Flutter 
+3- CONECTAR 1 e 2 
+4- Criar tela de Weather com: Textfield, text, elevatedbutton, row, scaffold, collumn 
+5- Criar função de buscar 
+6- CONECTAR 4 e 5
+
+📚 Conceitos Abordados
+
+- Arquitetura em camadas.
+- Requisições HTTP com pacote `http`.
+- Conversão JSON (`json.decode`).
+- Manipulação de estado (`setState`).
+- Separação de responsabilidades e organização de código.
+
+
+🧪 Exercício para os Alunos
+
+Desafio 1: Modifique a interface para exibir também:
+
+- Um ícone condizente com a previsão do tempo.
+- Adicionar a sensação térmica.
+- Velocidade do vento.
+
+Desafio 2: Adapte para exibir a cidade padrão do usuário automaticamente ao abrir o app (dica: use geolocalização com `geolocator`).
+
+Desafio 3: Crie um histórico de consultas com as últimas cidades buscadas.
+
+🌐 API Usada
+
+- OpenWeatherMap
+    - URL: https://openweathermap.org/current
+    - Crie uma conta gratuita e gere sua API KEY.
